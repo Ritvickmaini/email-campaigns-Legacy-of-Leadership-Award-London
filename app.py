@@ -39,7 +39,7 @@ def generate_email_html(
     )
 
     unsubscribe_link = (
-        f"https://unsubscribe-uofn.onrender.com/unsubscribe?email={email_for_tracking}"
+        f"https://unsubscribe-uofn.onrender.com/unsubscribe"
     )
 
     custom_html_rendered = custom_html.replace("{name}", full_name or "")
